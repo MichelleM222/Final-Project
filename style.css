@@ -17,7 +17,7 @@
 nav {
   display: flex;
   justify-content: center;
-  background-color: #7366e4;
+  background-color: #7366e4; /* Color púrpura */
   padding: 1rem;
   gap: 2rem;
 }
@@ -39,6 +39,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  background-color: #f9f9f9;
 }
 main {
   padding: 2rem;
@@ -74,7 +75,6 @@ figure {
   margin: 0;
   text-align: center;
 }
-
 figcaption {
   margin-top: 0.5rem;
   font-style: italic;
@@ -85,6 +85,8 @@ figcaption {
 /* Footer */
 footer {
   background-color: #7366e4;
+  color: white;
   text-align: center;
   padding: 1rem;
+  font-size: 0.9rem;
 }
