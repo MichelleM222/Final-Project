@@ -17,19 +17,19 @@
 nav {
   display: flex;
   justify-content: center;
-  background-color: #005f73;
+  background-color: #7366e4;
   padding: 1rem;
   gap: 2rem;
 }
 nav a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
   transition: transform 0.3s, color 0.3s;
 }
 nav a:hover {
-  color: #ffd166;
+  color: #201b38;
   transform: scale(1.1);
 }
 
@@ -46,7 +46,7 @@ main {
 
 /* Imágenes: modelo de caja */
 img {
-  border: 2px solid #ccc;
+  border: 2px solid #0d2591;
   padding: 10px;
   border-radius: 10px;
   max-width: 100%;
@@ -78,13 +78,13 @@ figure {
 figcaption {
   margin-top: 0.5rem;
   font-style: italic;
-  color: #444;
+  color: #363255;
   font-size: 0.95rem;
 }
 
 /* Footer */
 footer {
-  background-color: #eee;
+  background-color: #7366e4;
   text-align: center;
   padding: 1rem;
 }
