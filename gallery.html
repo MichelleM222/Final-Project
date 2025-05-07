@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería</title>
-    <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galería</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <a href="#main" class="skip-link">Saltar al contenido principal</a>
+    <a href="#main" class="skip-link">Saltar al contenido principal</a>
+    <header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="about.html">Sobre mí</a>
+        <a href="gallery.html">Galería</a>
+    </nav>
+    </header>
+    <main id="main">
+    <h1>Galería de destinos</h1>
+    <section class="grid-container">
 
-        <header>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="about.html">Sobre mí</a>
-            <a href="gallery.html">Galería</a>
-        </nav>
-        </header>
-        <main id="main">
-            <h1>Galería de destinos</h1>
-            <section class="grid-container">
-                <img src="images/paris.jpg" alt="París">
-                <img src="images/roma.jpg" alt="Roma">
-                <img src="images/ny.jpg" alt="Nueva York">
-                <img src="images/kyoto.jpg" alt="Kioto">
-                <img src="images/machu-picchu.jpg" alt="Machu Picchu">
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2025 Mi Sitio de Viajes</p>
-        </footer>
+        <figure>
+        <img src="images/paris.jpg" alt="Torre Eiffel de noche">
+        <figcaption>París, Francia - La icónica Torre Eiffel iluminada al anochecer.</figcaption>
+        </figure>
+
+        <figure>
+        <img src="images/roma.jpg" alt="Coliseo Romano">
+        <figcaption>Roma, Italia - El majestuoso Coliseo, símbolo del Imperio Romano.</figcaption>
+        </figure>
+
+        <figure>
+        <img src="images/ny.jpg" alt="Panorama de Nueva York">
+        <figcaption>Nueva York, EE. UU. - El skyline de Manhattan desde Brooklyn.</figcaption>
+        </figure>
+
+        <figure>
+        <img src="images/kyoto.jpg" alt="Templo en Kioto">
+        <figcaption>Kioto, Japón - Templo tradicional rodeado de cerezos en flor.</figcaption>
+        </figure>
+
+        <figure>
+        <img src="images/machu-picchu.jpg" alt="Vista de Machu Picchu">
+        <figcaption>Machu Picchu, Perú - Las antiguas ruinas incas entre las montañas andinas.</figcaption>
+        </figure>
+
+    </section>
+    </main>
+
+    <footer>
+    <p>&copy; 2025 Mi Sitio de Viajes</p>
+    </footer>
     </body>
 </html>
